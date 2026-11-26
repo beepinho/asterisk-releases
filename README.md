@@ -10,8 +10,15 @@ Made by beepinho. Free.
 
 Go to **[Releases](../../releases/latest)** and pick your installer:
 
-- **Mac:** `Asterisk_x.x.x_universal.dmg` — open it and drag Asterisk to Applications. The first time, right-click the app and choose **Open** (it isn't signed with an Apple developer account). Works on macOS 10.15 Catalina and newer, Intel and Apple Silicon.
-- **Windows:** `Asterisk_x.x.x_x64-setup.exe` — open it. If Windows says "Windows protected your PC", click **More info → Run anyway**.
+- **Mac:** `Asterisk_x.x.x_universal.dmg` — open it and drag Asterisk to Applications. Works on macOS 10.15 Catalina and newer, Intel and Apple Silicon.
+- **Windows:** `Asterisk_x.x.x_x64-setup.exe` — open it.
+
+### Why your computer warns you the first time
+
+Asterisk is a free app made by one person, so it isn't signed with a paid Apple or Microsoft certificate. Both systems warn about apps like that. You only see it the first time you open it.
+
+- **Mac:** right-click Asterisk in Applications and choose **Open**, then **Open** again. On newer Macs you may need **System Settings → Privacy & Security → Open Anyway** instead.
+- **Windows:** if it says *"Windows protected your PC"*, click **More info**, then **Run anyway**. If Windows Defender blocks it, that's a false alarm for the same reason: open **Windows Security → Protection history**, choose the Asterisk entry, then **Actions → Allow on device**.
 
 Asterisk checks for updates when it opens and installs them with one click. Every update is signed, so the app only accepts real ones.
 
@@ -62,3 +69,7 @@ If Asterisk is useful to you: [buymeacoffee.com/beepinho](https://buymeacoffee.c
 Asterisk is provided as is, free of charge, without warranty of any kind. You are responsible for your master password, your backups and your printed sheets. beepinho is not liable for any loss of passwords, documents or data, or for any damage arising from the use of Asterisk. By using it you accept this.
 
 Trademarks and logos shown as account icons belong to their respective owners and are used only to identify your own accounts.
+
+---
+
+Made by beepinho · © beepinho. All rights reserved.
